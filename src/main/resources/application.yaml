@@ -1,0 +1,20 @@
+opentracing:
+  jaeger:
+    http-sender:
+      url: http://localhost:14268/api/traces
+
+management:
+  endpoints:
+    web:
+      base-path: /actuator
+      exposure:
+        include: [ "health","prometheus", "metrics" ]
+  endpoint:
+    health:
+      show-details: always
+    metrics:
+      enabled: true
+    prometheus:
+      enabled: true
+server:
+  port: 8080
