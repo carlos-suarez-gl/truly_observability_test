@@ -1,4 +1,4 @@
-# demos spring-boot
+# Demo spring-boot
 
 ## Overview
 
