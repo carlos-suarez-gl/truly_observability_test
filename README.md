@@ -7,9 +7,13 @@ integrating with Opentracing, Logback and Spring Actuator.
 
 ## First-time Setup
 1. To start this demo, the first step is to validate if you have docker and docker-compose installed on your machine. You can validate this one, running the command  ***docker --version*** in one console. In case you need to install both of these applications, you can follow the commands in the below pages to install Docker desktop, this package include Docker Compose, Docker Engine, and Docker CLI:
-    -[Windows](https://docs.docker.com/desktop/install/windows-install/) 
-    -[Linux](https://docs.docker.com/desktop/install/linux-install/) 
-    -[MacOs](https://docs.docker.com/desktop/install/mac-install/) 
+
+    -[Windows](https://docs.docker.com/desktop/install/windows-install/)
+
+    -[Linux](https://docs.docker.com/desktop/install/linux-install/)
+
+    -[MacOs](https://docs.docker.com/desktop/install/mac-install/)
+
 2. Sentry can use in different ways, like SaaS or running locally in your machine. For this example, we use Sentry like SaaS, with a free account, for test purposes. In case, that you want to run sentry in your local machine, you can follow the steps to run into your local machine on this page [Sentry in your local environment](https://theappsguy.dev/setting-up-sentry-self-hosted) 
 3. Update the Sentry DSN to your project's DSN in application.properties
 4. Ensure that `SENTRY_AUTH_TOKEN` is set in your ENV variables
@@ -37,8 +41,11 @@ integrating with Opentracing, Logback and Spring Actuator.
         Replace **${docker id}** for **container id** number and **${new_password}** for the new **password** that you choise
 
 5. If your environment is ready, you need to validate, that Maven was installed and that the variable, for his working is defined. In case you are going to install Maven for the first time on your machine, you can go to the next pages, and follow the steps, to use Maven on your machine.
+
     -[Windows](https://phoenixnap.com/kb/install-maven-windows) 
+
     -[Linux](https://www.digitalocean.com/community/tutorials/install-maven-linux-ubuntu) 
+    
     -[MacOs](https://formulae.brew.sh/formula/maven) 
 
 6. Back to the code, the "pom.xml" is ready, to test and create a Jar file. In this case, you need to go the root path of you project, in this case **/truly_observability_test** to run the below commands, depends of the process that you want to follow:
