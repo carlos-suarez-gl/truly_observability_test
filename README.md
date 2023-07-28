@@ -38,7 +38,7 @@ integrating with Opentracing, Logback and Spring Actuator.
 
     If you have any problem of login, you can reset the password enter to the docker using the next script:
 
-        docker exec -it ${docker id}  grafana-cli admin reset-admin-password ${new_password}
+        docker exec -it ${docker id} grafana-cli admin reset-admin-password ${new_password}
         
         To obtain the docker id for Grafana, you can run the command docker ps in one console, and use the container id, like docker id.
         Replace ${docker id} for container id number and ${new_password} for the new password that you choise
