@@ -33,15 +33,15 @@ integrating with Opentracing, Logback and Spring Actuator.
 
     To login in grafana at the firstime the credentials are:
 
-        user: ***admin***
-        pass: ***admin***
+        user: admin
+        pass: admin
 
     If you have any problem of login, you can reset the password enter to the docker using the next script:
 
-        ***docker exec -it ${docker id}  grafana-cli admin reset-admin-password ${new_password}***
+        docker exec -it ${docker id}  grafana-cli admin reset-admin-password ${new_password}
         
-        To obtain the docker id for Grafana, you can run the command ***docker ps*** in one console, and use the **container id**, like **docker id**.
-        Replace **${docker id}** for **container id** number and **${new_password}** for the new **password** that you choise
+        To obtain the docker id for Grafana, you can run the command docker ps in one console, and use the container id, like docker id.
+        Replace ${docker id} for container id number and ${new_password} for the new password that you choise
 
 5. If your environment is ready, you need to validate, that Maven was installed and that the variable, for his working is defined. In case you are going to install Maven for the first time on your machine, you can go to the next pages, and follow the steps, to use Maven on your machine.
 
@@ -59,7 +59,7 @@ integrating with Opentracing, Logback and Spring Actuator.
 
     To run the jar file, into a tomcat server you can use the next command:
     
-        - java -jar target/example-0.0.1-SNAPSHOT.jar --spring.application.name=Service-1 --server.port=8080
+        java -jar target/example-0.0.1-SNAPSHOT.jar --spring.application.name=Service-1 --server.port=8080
         
 7. The application is ready to use, and you can start to enter to the URL "http://localhost:8080/" and watch the message "This is the root url"
 
