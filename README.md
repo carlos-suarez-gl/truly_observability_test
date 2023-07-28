@@ -1,4 +1,4 @@
-# Observability demo spring-boot
+# Observability spring-boot demo
 
 ## Overview
 
@@ -37,7 +37,7 @@ integrating with Opentracing, Logback and Spring Actuator.
 
         ***docker exec -it ${docker id}  grafana-cli admin reset-admin-password ${new_password}***
         
-        To obtain the docker id for Grafana, you can run the command <span style="color: green;">docker ps</span> in one console, and use the <span style="color: green;">container id</span>, like <span style="color: green;">docker id</span>
+        To obtain the docker id for Grafana, you can run the command ***docker ps*** in one console, and use the **container id**, like **docker id**
         Replace **${docker id}** for **container id** number and **${new_password}** for the new **password** that you choise
 
 5. If your environment is ready, you need to validate, that Maven was installed and that the variable, for his working is defined. In case you are going to install Maven for the first time on your machine, you can go to the next pages, and follow the steps, to use Maven on your machine.
