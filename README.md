@@ -37,7 +37,7 @@ integrating with Opentracing, Logback and Spring Actuator.
 
         ***docker exec -it ${docker id}  grafana-cli admin reset-admin-password ${new_password}***
         
-        To obtain the docker id for Grafana, you can run the command ***docker ps*** in one console, and use the **container id**, like **docker id**
+        To obtain the docker id for Grafana, you can run the command <span style="color: green;">docker ps</span> in one console, and use the <span style="color: green;">container id</span>, like <span style="color: green;">docker id</span>
         Replace **${docker id}** for **container id** number and **${new_password}** for the new **password** that you choise
 
 5. If your environment is ready, you need to validate, that Maven was installed and that the variable, for his working is defined. In case you are going to install Maven for the first time on your machine, you can go to the next pages, and follow the steps, to use Maven on your machine.
@@ -45,7 +45,7 @@ integrating with Opentracing, Logback and Spring Actuator.
     -[Windows](https://phoenixnap.com/kb/install-maven-windows) 
 
     -[Linux](https://www.digitalocean.com/community/tutorials/install-maven-linux-ubuntu) 
-    
+
     -[MacOs](https://formulae.brew.sh/formula/maven) 
 
 6. Back to the code, the "pom.xml" is ready, to test and create a Jar file. In this case, you need to go the root path of you project, in this case **/truly_observability_test** to run the below commands, depends of the process that you want to follow:
