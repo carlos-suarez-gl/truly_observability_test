@@ -1,4 +1,4 @@
-# Observability demo spring-boot
+# sentry-demos/java-spring-boot-logback
 
 ## Overview
 
